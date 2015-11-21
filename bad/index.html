@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+
+<title>Bad code</title>
+<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+<div id="left-side" class="side">
+</div>
+
+<div id="right-side" class="side">
+</div>
+
+
+<script type="text/html" class="spaceParamsHTML repeatingSelectorsHTML objectParamsHTML unnecessaryConditionalHTML cacheThisHTML badSelectorsHTML unnecessaryEachHTML">
+	<div class="container container-a" id="container-a">
+		<ul class="list-of-things">
+			<li>This is a test</li>
+			<li>This is <a href="#">another test</a>.</li>
+			<li>Another test, because, why not?</li>
+			<li>Here's another test li</li>
+			<li>This is <a href="#">yet another test</a>.</li>
+			<li>One more for the road...</li>
+			<li>Whatever</li>
+		</ul>
+	</div>
+	<div class="container container-b" id="container-b">
+		<ul class="list-of-things">
+			<li>This is a test</li>
+			<li>This is <a href="#">another test</a>.</li>
+			<li>Another test, because, why not?</li>
+			<li>Here's another test li</li>
+			<li>This is <a href="#">yet another test</a>.</li>
+			<li>One more for the road...</li>
+			<li>Whatever</li>
+		</ul>
+	</div>
+	<div class="container container-c" id="container-c">
+		<ul class="list-of-things active">
+			<li>This is a test</li>
+			<li>This is <a href="#">another test</a>.</li>
+			<li>Another test, because, why not?</li>
+			<li>Here's another test li</li>
+			<li>This is <a href="#">yet another test</a>.</li>
+			<li>One more for the road...</li>
+			<li>Whatever</li>
+		</ul>
+	</div>
+	<div class="container container-d" id="container-d">
+		<ul class="list-of-things">
+			<li>This is a test</li>
+			<li>This is <a href="#">another test</a>.</li>
+			<li>Another test, because, why not?</li>
+			<li>Here's another test li</li>
+			<li>This is <a href="#">yet another test</a>.</li>
+			<li>One more for the road...</li>
+			<li>Whatever</li>
+		</ul>
+	</div>
+</script>
+
+<script type="text/html" class="bulkAppendHTML">
+	<div class="the-container">
+	</div>
+</script>
+
+<script src="../js/jquery-2.1.4.js"></script>
+<script src="js/bad.js"></script>
+<script src="js/bad-setup.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.side {
+	width: 49%;
+	height: 100%;
+	padding: 4px;
+	display: inline-block;
+	vertical-align: top;
+}
+#left-side a {
+	display: block;
+}
+#left-side {
+	border: 1px solid red;
+}
+#right-side {
+	border: 1px solid green;
+}
+#right-side div {
+	border: 1px solid yellow;
+}
+.codelink-container {
+	height: 1px;
+	overflow: hidden;
+	margin: 5px 15px 15px;
+}
